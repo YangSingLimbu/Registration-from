@@ -64,3 +64,5 @@ app.post("/failuare", function (req, res) {
 app.listen(process.env.PORT || 3000, function () {
   console.log("Listening at port 3000");
 });
+
+module.exports = app;
