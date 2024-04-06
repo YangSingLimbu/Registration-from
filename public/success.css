@@ -78,3 +78,15 @@ h2 {
 .input-box.button input:hover {
   background: #0e4bf1;
 }
+
+@media (max-width: 400px) {
+  .down h2 {
+    font-size: 20px;
+    margin-bottom: 80px;
+    padding: 0 10%;
+  }
+
+  .input-box.botton input {
+    font-size: 20px;
+  }
+}
